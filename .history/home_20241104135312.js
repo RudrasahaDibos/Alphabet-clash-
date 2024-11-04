@@ -5,10 +5,6 @@
    console.log(alpha)
 
 //    show the dis play 
-   const Screenalphabet = document.getElementById('alphabet-random')
-   Screenalphabet.innerText = alpha
-
-   setBgColorAlphabet(alpha)
 
  }
 
@@ -22,5 +18,5 @@ function play(){
 
     hideElementId('home-screen')
     showElementId('play-ground')
-    continueGame()
+    continueGame('alphabet-random')
 }

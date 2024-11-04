@@ -8,7 +8,7 @@
    const Screenalphabet = document.getElementById('alphabet-random')
    Screenalphabet.innerText = alpha
 
-   setBgColorAlphabet(alpha)
+   setBgColorAlphabet(alpha.toUpperCase())
 
  }
 

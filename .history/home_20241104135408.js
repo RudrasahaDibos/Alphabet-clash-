@@ -6,9 +6,6 @@
 
 //    show the dis play 
    const Screenalphabet = document.getElementById('alphabet-random')
-   Screenalphabet.innerText = alpha
-
-   setBgColorAlphabet(alpha)
 
  }
 

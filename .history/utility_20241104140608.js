@@ -7,9 +7,8 @@ function showElementId(showsection){
     const showSection = document.getElementById(showsection)
      showSection.classList.remove('hidden')
 }
-function setBgColorAlphabet(BgAlphabetelementId){
+function setBgColorAlphabet(){
     const bgColorAlphabet = document.getElementById(BgAlphabetelementId)
-    bgColorAlphabet.classList.add('bg-orange-500')
 }
 
 function getrandomAlphabet(){

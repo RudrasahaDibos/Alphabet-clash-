@@ -9,7 +9,7 @@ function showElementId(showsection){
 }
 function setBgColorAlphabet(BgAlphabetelementId){
     const bgColorAlphabet = document.getElementById(BgAlphabetelementId)
-    bgColorAlphabet.classList.add('bg-orange-500')
+    bg
 }
 
 function getrandomAlphabet(){

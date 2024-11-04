@@ -5,10 +5,7 @@
    console.log(alpha)
 
 //    show the dis play 
-   const Screenalphabet = document.getElementById('alphabet-random')
-   Screenalphabet.innerText = alpha
-
-   setBgColorAlphabet(alpha)
+   const Screenalphabet = document.getElementById('')
 
  }
 

@@ -6,9 +6,9 @@
 
 //    show the dis play 
    const Screenalphabet = document.getElementById('alphabet-random')
-   Screenalphabet.innerText = alpha
+   Screenalphabet.innerText = alpha.toUpperCase()
 
-   setBgColorAlphabet(alpha)
+   setBgColorAlphabet(alpha.toUpperCase())
 
  }
 
