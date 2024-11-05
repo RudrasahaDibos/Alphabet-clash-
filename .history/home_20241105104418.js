@@ -10,20 +10,7 @@ document.addEventListener('keyup',function(event){
    console.log("presskey",pressKey)
 
    const CurentAlphabet = document.getElementById('alphabet-random')
-         const randomCurrentAlphabet = CurentAlphabet.innerText
-        const  randomlowerCurrentAlphabets =  randomCurrentAlphabet.toLocaleLowerCase()
-        console.log("CurrentAlphabets",randomlowerCurrentAlphabets)
-
-
-        if(pressKey === randomlowerCurrentAlphabets){
-          console.log('Your score wellfall')
-          RemoveBgColorAlphabet(randomlowerCurrentAlphabets)
-          continueGame()
-        }
-        else{
-          console.log("your life short ")
-          
-        }
+         const                     CurentAlphabet.innerText.toLocaleLowerCase()
 
 })
 
@@ -40,7 +27,7 @@ document.addEventListener('keyup',function(event){
  function continueGame(){
     // genareate random alphabets 
   const alpha =  getrandomAlphabet()
-   console.log(alpha)
+ 
 
 //    show the dis play 
    const Screenalphabet = document.getElementById('alphabet-random')

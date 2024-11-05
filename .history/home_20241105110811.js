@@ -6,6 +6,7 @@
 
 
 document.addEventListener('keyup',function(event){
+  console.log(event.key)
    const pressKey = event.key
    console.log("presskey",pressKey)
 

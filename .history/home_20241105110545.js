@@ -22,7 +22,6 @@ document.addEventListener('keyup',function(event){
         }
         else{
           console.log("your life short ")
-          
         }
 
 })

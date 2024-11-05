@@ -11,9 +11,9 @@ function setBgColorAlphabet(BgAlphabetelementId){
     const bgColorAlphabet = document.getElementById(BgAlphabetelementId)
     bgColorAlphabet.classList.add('bg-orange-500')
 }
-function RemoveBgColorAlphabet(BgremoveAlphabetelementId){
-    const bgColorAlphabet = document.getElementById(BgremoveAlphabetelementId)
-    bgColorAlphabet.classList.remove('bg-orange-500')
+function ReBgColorAlphabet(BgAlphabetelementId){
+    const bgColorAlphabet = document.getElementById(BgAlphabetelementId)
+    bgColorAlphabet.classList.add('bg-orange-500')
 }
 
 function getrandomAlphabet(){

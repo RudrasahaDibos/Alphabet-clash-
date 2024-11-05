@@ -17,13 +17,8 @@ document.addEventListener('keyup',function(event){
 
         if(pressKey === randomlowerCurrentAlphabets){
           console.log('Your score wellfall')
-          RemoveBgColorAlphabet(randomlowerCurrentAlphabets)
-          continueGame()
         }
-        else{
-          console.log("your life short ")
-          
-        }
+        els
 
 })
 
